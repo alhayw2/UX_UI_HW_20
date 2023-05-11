@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+  }
+ 
+header {
+  background-color:whitesmoke;
+  border: 1px solid black;
+  display: block;
+}
+
+.nav {
+  width: 69%;
+  padding: 1%;
+}
+footer {
+  background-color:whitesmoke;
+  border: 1px solid black;
+  text-align: left;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+.heroImage {
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.left {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9%;
+}
+container {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+    text-align: center;
+
+}
+.card {
+    display:inline-block;
+}
+.right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+b.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    grid-template-areas:
+    "hover"
+    "disabled"
+    ;
+    height: 500px;
+  }
+  .hoverMe {
+    grid-area: hover;
+    background-color: gray;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    transition: 0.3s;
+  }
+  .hoverMe:hover {
+    background-color:blueviolet;
+  }
