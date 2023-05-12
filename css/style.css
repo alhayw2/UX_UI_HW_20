@@ -81,3 +81,9 @@ b.grid {
   .hoverMe:hover {
     background-color:blueviolet;
   }
+
+.resize {
+  width: 60px;
+  height: 60px;
+}
+
